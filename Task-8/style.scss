@@ -1,0 +1,21 @@
+$bgColor : rgb(240, 104, 104);
+$font-size : 5px;
+
+footer {
+    background-color: $bgColor;
+    height:55px;
+    padding: 0;
+    margin: 4;
+    text-align: center;
+    border: 2px solid rgb(4, 40, 239);
+    border-radius: 5px;
+    div {
+        font-size: $font-size;
+        h1{
+            font-size: $font-size + 25;
+        }
+        p{
+            font-size: $font-size +15;
+        }
+    }
+}
